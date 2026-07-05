@@ -1,0 +1,10 @@
+{
+  "interval_minutes": 5,
+  "image_source": "unsplash",
+  "unsplash_api_key": "your_unsplash_api_key_here",
+  "wallpaper_directory": "./wallpapers",
+  "image_query": "nature",
+  "image_size": "1920x1080",
+  "keep_wallpapers": true,
+  "max_wallpapers_to_keep": 50
+}
