@@ -113,14 +113,8 @@ Try these in the `image_query` field:
 
 1. Press `Win + R`, type `shell:startup` and press Enter
 2. Right-click in the folder → New → Shortcut
-3. For the Shortcut target enter the Python executable followed by the script path. Use your actual paths in place of the placeholders. Example:
-
-   Target:
-   "C:\\Path\\to\\python.exe" "C:\\Path\\to\\auto-wallpaper\\main.py"
-
-   (Alternatively, you can point directly to a packaged executable if you use a bundler.)
-4. Optionally set "Start in" to the repository folder, e.g. `C:\\Path\\to\\auto-wallpaper`
-5. Name it "Auto Wallpaper Changer"
+3. Paste: `C:\path\to\python.exe C:\path\to\main.py`
+4. Name it "Auto Wallpaper Changer"
 
 ### Option 2: Use Task Scheduler
 
@@ -128,12 +122,7 @@ Try these in the `image_query` field:
 2. Right-click "Task Scheduler Library" → Create Basic Task
 3. Name: "Auto Wallpaper Changer"
 4. Trigger: At startup (or your preference)
-5. Action: Start a program
-
-   - Program/script: `C:\\Path\\to\\python.exe`  (replace with your Python executable)
-   - Add arguments (optional): `main.py`
-   - Start in (optional): `C:\\Path\\to\\auto-wallpaper`
-
+5. Action: Start a program → `C:\path\to\python.exe C:\path\to\main.py`
 6. Check "Run with highest privileges"
 
 ## Troubleshooting
